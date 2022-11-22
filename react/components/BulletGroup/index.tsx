@@ -18,7 +18,7 @@ const BulletGroup = ({
 
   console.log("Bullets", bullets)
 
-  const bulletsContent = getBulletsAsTSXList(bullets);
+  const bulletsGroup = getBulletsAsTSXList(bullets);
 
   if (false){
     console.log(list, children)
@@ -29,7 +29,7 @@ const BulletGroup = ({
     ?
       <div>estamos en mobile</div>
     :
-      <div>{bulletsContent}</div>
+      <div>{bulletsGroup}</div>
   )
 }
 
